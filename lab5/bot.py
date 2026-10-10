@@ -10,7 +10,7 @@ from telegram.ext import (
     filters,
 )
 
-load_dotenv()
+load_dotenv(override=True)
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):

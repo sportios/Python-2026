@@ -1,4 +1,4 @@
-import o
+import os
 
 from dotenv import load_dotenv
 from telegram import ReplyKeyboardMarkup, Update
